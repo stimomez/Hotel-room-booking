@@ -1,0 +1,19 @@
+.footer {
+  background: rgb(165, 158, 158);
+  width: 100%;
+  color: #fff;
+  bottom: 0;
+  position: absolute;
+}
+.footer-container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 80%;
+}
+
+@media screen and (max-width: 260px) {
+ .footer {
+ font-size: 13px;
+}
+}
